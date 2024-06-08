@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text.css"   href="style.css">
+  <title>Selectors</title>
+</head>
+
+<!-- Selects elements with the given attribute. -->
+
+<div data-color="red">This will be red</div>
+<div data-color="green">This will be red</div>
+<div data-background="red">This will NOT be red</div><br>
+
+<!-- Selects elements with the given attribute and value. -->
+
+<div data-color="red">This will be red</div>
+<div data-color="green">This will NOT be red</div> 
+<div data-color="blue">This will NOT be red</div><br>
+
+<div class="foo-123">This will be red</div> 
+<div class="foo123">This will be red</div> 
+<div class="bar123foo">This will be red</div> 
+<div class="barfooo123">This will be red</div> 
+<div class="barfo0">This will NOT be red</div><br>
+
+<div class="color-red foo-bar the-div">This will be red</div>
+<div class="color-blue foo-bar the-div">This will NOT be red</div><br>
+
+<div class="foo-123">This will be red</div> 
+<div class="foo-234">This will be red</div> 
+<div class="bar-123">This will NOT be red</div><br>
+
+<div class="foobar-file">This will be red</div>
+<div class="foobar-file">This will be red</div>
+<div class="foobar-input">This will NOT be red</div><br>
+
+<div lang="EN-us">This will be red</div> 
+<div lang="EN-gb">This will be red</div> 
+<div lang="PT-pt">This will NOT be red</div><br>
+
+<div lang="EN">This will be red</div> 
+<div lang="en">This will be red</div> 
+<div lang="PT">This will NOT be red</div><br>
+</body>
+</html>
